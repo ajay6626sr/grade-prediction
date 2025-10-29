@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { supabase } from './lib/supabase';
 import { apiService } from './lib/api';
-import { User } from '@supabase/supabase-js';
+import { supabase } from './lib/supabaseClient'
 import Auth from './components/Auth';
 import Dashboard from './components/Dashboard';
 import Recommendations from './components/Recommendations';
