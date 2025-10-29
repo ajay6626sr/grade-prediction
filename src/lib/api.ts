@@ -1,4 +1,5 @@
-const API_BASE_URL = 'http://localhost:8000';
+export const API_BASE_URL = "https://grade-prediction-5b5n.onrender.com";
+
 
 export interface PredictGradeResponse {
   student_id: string;
