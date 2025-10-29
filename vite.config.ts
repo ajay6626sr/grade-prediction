@@ -1,8 +1,11 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
-// ✅ IMPORTANT: match your GitHub repo name here
+// ✅ CHANGE THIS to your actual GitHub repo name!
 export default defineConfig({
   plugins: [react()],
-  base: '/grade-prediction/', // this MUST match your repo name
+  base: '/grade-prediction/', // Example: '/grade-prediction/'
+  build: {
+    outDir: 'dist',
+  },
 });
