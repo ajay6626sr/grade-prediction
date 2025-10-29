@@ -3,8 +3,8 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/grade-prediction/', // 👈 IMPORTANT for GitHub Pages
+  base: '/grade-prediction/', // 👈 this must match your repo name
   optimizeDeps: {
     exclude: ['lucide-react'],
   },
-})
+});
