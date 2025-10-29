@@ -6,6 +6,7 @@
   "homepage": "https://ajay6626sr.github.io/grade-prediction/",
   "scripts": {
     "dev": "vite",
+    
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
